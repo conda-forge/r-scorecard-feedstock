@@ -1,13 +1,17 @@
 About r-scorecard
 =================
 
-Home: https://github.com/ShichenXie/scorecard
+Home: http://shichen.name/scorecard/
 
 Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-scorecard-feedstock/blob/main/LICENSE.txt)
 
 Summary: The `scorecard` package makes the development of credit risk scorecard easier and efficient by providing functions for some common tasks, such as data partition, variable selection, woe binning, scorecard scaling, performance evaluation and report generation. These functions can also used in the development of machine learning models. The references including: 1. Refaat, M. (2011, ISBN: 9781447511199). Credit Risk Scorecard: Development and Implementation Using SAS. 2. Siddiqi, N. (2006, ISBN: 9780471754510). Credit risk scorecards. Developing and Implementing Intelligent Credit Scoring.
+
+Development: https://github.com/ShichenXie/scorecard
+
+Documentation: http://shichen.name/scorecard/reference/index.html
 
 Current build status
 ====================
