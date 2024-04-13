@@ -1,4 +1,4 @@
-{% set version = "0.4.3" %}
+{% set version = "0.4.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/scorecard_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/scorecard/scorecard_{{ version }}.tar.gz
-  sha256: fb291c49453b64a101df79aadfd9c16682a6251e58663744ad74877623c4bd80
+  sha256: a189d37711c4f45f11fc08a09a736061347bc6afadc83d02a6d005bc5d4e142b
 
 build:
   merge_build_host: true  # [win]
