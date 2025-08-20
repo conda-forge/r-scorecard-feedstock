@@ -1,4 +1,4 @@
-{% set version = "0.4.4" %}
+{% set version = "0.4.5" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/scorecard_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/scorecard/scorecard_{{ version }}.tar.gz
-  sha256: a189d37711c4f45f11fc08a09a736061347bc6afadc83d02a6d005bc5d4e142b
+  sha256: d8b09eda25c61457c8906b51183c5e50063ff7623ef8cba0cdce95d9f7f5b89e
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
